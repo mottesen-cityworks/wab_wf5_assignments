@@ -1,0 +1,23 @@
+{
+  "name": "WorkflowRunner_Panel",
+  "2D": true,
+  "3D": false,
+  "platform": "HTML",
+  "version": "1.0",
+  "wabVersion": "2.4",
+  "author": "Latitude Geographics",
+  "description": "This widget runs a Geocortex Workflow in a panel.",
+  "copyright": "",
+  "license": "http://www.apache.org/licenses/LICENSE-2.0",
+  "properties": {
+    "inPanel": true,
+    "hasStyle": false,
+    "hasUIFile": true,
+    "hasSettingPage": true,
+    "hasSettingUIFile": true,
+    "hasSettingLocale": true,
+    "hasSettingStyle": true,
+    "IsController": false,
+    "supportMultiInstance": true
+  }
+}

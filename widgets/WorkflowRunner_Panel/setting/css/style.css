@@ -1,0 +1,243 @@
+.geocortex-widget-workflowrunner-setting {
+    width: 100%;
+    height: 100%;
+    font-size: 12px;
+}
+
+    .geocortex-widget-workflowrunner-setting .add-workflow-tip {
+        font-size: 12px;
+    }
+
+    .geocortex-widget-workflowrunner-setting .content {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 40px;
+        bottom: 0;
+    }
+
+    .geocortex-widget-workflowrunner-setting > .content > div {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+    }
+
+    .geocortex-widget-workflowrunner-setting .add-btn {
+        display: inline-block;
+        padding: 0 10px;
+        height: 32px;
+        background-color: #24B5CC;
+        color: #ffffff;
+        text-align: center;
+        cursor: pointer;
+    }
+
+        .geocortex-widget-workflowrunner-setting .add-btn .icon {
+            position: relative;
+            top: 1px;
+            width: 12px;
+            height: 12px;
+            background: url(images/add.png) center center no-repeat;
+            background-size: contain;
+        }
+
+        .geocortex-widget-workflowrunner-setting .add-btn .tip {
+            margin-left: 8px;
+        }
+
+        .geocortex-widget-workflowrunner-setting .add-btn > div {
+            display: inline-block;
+            cursor: pointer;
+            height: 32px;
+            line-height: 32px;
+            font-size: 12px;
+        }
+
+    .geocortex-widget-workflowrunner-setting .single-setting-content {
+        width: 100%;
+    }
+
+    .geocortex-widget-workflowrunner-setting .general {
+        width: 100%;
+    }
+
+        .geocortex-widget-workflowrunner-setting .general .second-td {
+            width: 90%;
+        }
+
+    .geocortex-widget-workflowrunner-setting .setting-btn {
+        width: 30px;
+        height: 30px;
+        border: 1px solid #D7D7D7;
+        cursor: pointer;
+    }
+
+        .geocortex-widget-workflowrunner-setting .setting-btn .jimu-icon {
+            position: relative;
+            left: 7px;
+            top: 7px;
+        }
+
+    .geocortex-widget-workflowrunner-setting .add-parameter {
+        margin-bottom: 7px;
+        cursor: pointer;
+        display: inline-block;
+    }
+
+    .geocortex-widget-workflowrunner-setting .add-parameter-icon {
+        background-image: url(images/add_icon.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 14px;
+        height: 14px;
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+    .geocortex-widget-workflowrunner-setting .add-parameter-label {
+        font-size: 14px;
+        color: #518dca;
+        margin-left: 10px;
+        line-height: 24px;
+        display: inline-block;
+        height: 100%;
+        text-decoration: underline;
+    }
+
+    .geocortex-widget-workflowrunner-setting .simple-table-row {
+        /* Hack to get rid of undesirable spacing around text box. http://stackoverflow.com/a/5078297/5322405 */
+        font-size: 0;
+    }
+
+    .geocortex-widget-workflowrunner-setting .simple-table-cell {
+        width: 100%;
+    }
+
+        .geocortex-widget-workflowrunner-setting .simple-table-cell .dijitValidationTextBox {
+            width: 100%;
+            height: 24px;
+        }
+
+        .geocortex-widget-workflowrunner-setting .simple-table-cell .dijitInputInner {
+            height: 20px;
+            line-height: 20px !important;
+        }
+
+    .geocortex-widget-workflowrunner-setting .dijitValidationTextBox,
+    .geocortex-widget-workflowrunner-setting .actions-td {
+        /* Hack to get rid of undesirable spacing around text box. http://stackoverflow.com/a/5078297/5322405 */
+        font-size: 14px;
+    }
+
+    .geocortex-widget-workflowrunner-setting .actions {
+        width: 90px;
+    }
+
+.button-container .geocortex-designer-btn a {
+    color: inherit;
+    text-decoration: none;
+    display:flex;
+    align-items:center;
+}
+
+.geocortex-designer-btn svg {
+    width: 14px;
+    height: 14px;
+    margin-left: 5px;
+}
+
+.geocortex-designer-btn .geocortex-external-link {
+    fill: #fff;
+}
+
+/*Overrides for Workflow Selector*/
+.jimu-item-table .items-table .item {
+    height: auto;
+    padding: 13px 10px 9px 40px;
+    border-top: 1px solid #eee;
+    background: url(images/list-icon.png) no-repeat 5px 7px!important;
+    background-size: 25px 25px;
+}
+
+.jimu-item-table td {
+    display: block;
+    width: 100%;
+    padding-bottom: 0!important;
+}
+
+.jimu-item-table .item-thumbnail {
+    width: 85%;
+    height: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    border: none;
+    background-image: none!important;
+    z-index: 10;
+    cursor: pointer;
+    transition: background .1s ease-in-out;
+}
+
+.jimu-item-table .item:hover {
+    background: url(images/list-icon.png) no-repeat 5px 7px #f8f8f8!important;
+    transition: background .1s ease-in-out;
+}
+
+.jimu-item-table .jimu-state-active.item {
+    width: 100%;
+    background: url(images/list-icon-active.png) no-repeat 5px 7px #24B5CC!important;
+    background-size: 25px 25px;
+}
+
+.jimu-item-table .item-info {
+    clear: right;
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: auto;
+    z-index: 11;
+    pointer-events: none;
+}
+
+.jimu-item-table .item-name,
+.jimu-item-table .item-date,
+.jimu-item-table .item-details {
+    display: inline-block;
+    margin-top: 0;
+    margin-right: 10px;
+}
+
+.jimu-item-table .jimu-state-active.item .item-name,
+.jimu-item-table .jimu-state-active.item .item-date,
+.jimu-item-table .jimu-state-active.item .item-details {
+    color: #fff;
+}
+
+.jimu-item-table .item-details {
+    float: right;
+    transition: color .2s ease-in-out;
+    pointer-events: all;
+}
+
+.jimu-item-table .item-details:hover {
+    color: #82c6ef;
+    transition: color .2s ease-in-out;
+}
+
+.jimu-item-table .jimu-state-active.item .item-details {
+    color: #fff;
+}
+
+.jimu-item-table .jimu-state-active.item .item-details:hover {
+    color: #d1f9ff;
+}
+
+.jimu-item-table .item-type-owner {
+    display: none;
+}
+
+.jimu-item-table .items-table .item-border {
+    width: 85%;
+    border: none;
+}

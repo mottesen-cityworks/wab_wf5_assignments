@@ -1,0 +1,45 @@
+{
+"cityworksUrl": "https://cloud01.cityworks.com/_SME_KSMMS_CURRENT_mottesen/Services/",
+"cityworksAppUrl": "https://cloud01.cityworks.com/_SME_KSMMS_CURRENT_mottesen/",
+"subWorkflows": {
+"authentication": "https://cityworks.maps.arcgis.com/home/item.html?id=0238593c1a364ec182b7a93ca23782fc",
+"cityworksRequest": "https://cityworks.maps.arcgis.com/home/item.html?id=09c4a398ff5d4167bed425752350f245"
+    },
+"paths": {
+"authenicateUser": "AMS/Authentication/Authenticate",
+"validateToken": "AMS/Authentication/Validate",
+"searchWorkOrders": "AMS/WorkOrder/Search",
+"searchWorkOrderTemplates": "Ams/WorkOrder/Templates",
+"searchWorkOrderTemplateById": "Ams/WorkOrder/Template",
+"searchWorkOrderEntities": "Ams/Entity/SearchAsWorkOrderEntity",
+"addWorkOrderEntities": "Ams/WorkOrder/AddEntities",
+"createWorkOrderFromServiceRequest": "Ams/WorkOrder/CreateFromServiceRequest",
+"createWorkOrder": "Ams/WorkOrder/Create",
+"getUserInfo": "AMS/Authentication/User",
+"getWorkOrderById": "AMS/WorkOrder/ById",
+"getWorkOrdersById": "AMS/WorkOrder/ByIds",
+"searchServiceRequests": "AMS/ServiceRequest/Search",
+"getServiceRequestById": "AMS/ServiceRequest/ById",
+"getServiceRequestsById": "AMS/ServiceRequest/ByIds",
+"closeServiceRequests": "Ams/ServiceRequest/Close",
+"getEntityGroups": "AMS/Entity/Groups",
+"getEntityTypes": "AMS/Entity/Types",
+"searchEntitiesAsWorkorder": "Ams/Entity/SearchAsWorkOrderEntity"
+    },
+    "mapSpatialReference": 2267,
+    "cityworksSpatialReference": 102724,
+    "serviceRequestLayerId": "Service Requests",
+    "workOrderLayerId": "Work Orders",
+    "bufferDistance": 100,
+    "bufferUnits": "meters",
+    "entityLayers": [
+        {
+            "url": "https://cloud-arcgis01.cityworks.com/arcgis/rest/services/KSMMS/_KSMMS_CLOUD_WATER/MapServer/1",
+            "entityGroup": "W",
+            "entityType": "WFIREHYD",
+            "label": "FACILITYID",
+            "uid": "FACILITYID",
+            "layerName": "Water Hydrants"
+        }
+    ]
+}

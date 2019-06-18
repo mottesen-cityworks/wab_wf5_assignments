@@ -1,0 +1,79 @@
+{
+  "theme": {
+    "name": "FoldableTheme"
+  },
+  "portalUrl": "http://www.arcgis.com",
+  "appId": "",
+  "title": "ArcGIS Web Application - Demo Widgets",
+  "subtitle": "with Web AppBuilder for ArcGIS",
+  "geometryService": "http://tasks.arcgisonline.com/ArcGIS/rest/services/Geometry/GeometryServer",
+  "links": [
+    {
+      "label": "ArcGIS Online"
+    }
+  ],
+  "widgetOnScreen": {
+    "widgets": [
+      {
+        "uri": "themes/FoldableTheme/widgets/HeaderController/Widget",
+        "positionRelativeTo": "browser",
+        "position": {
+          "left": 0,
+          "top": 0,
+          "right": 0,
+          "height": 45
+        }
+      },
+      {
+        "uri": "widgets/samplewidgets/WidgetCommunication/WidgetA/Widget",
+        "position": {
+          "left": 45,
+          "top": 45
+        }
+      },
+      {
+        "uri": "widgets/Select/Widget",
+        "position": {
+          "left": 95,
+          "top": 45
+        }
+      }
+    ]
+  },
+  "map": {
+    "3D": false,
+    "2D": true,
+    "itemId": "038a7cb8ccf34acb8a66c953881f300b",
+    "position": {
+      "left": 0,
+      "top": 45,
+      "right": 0,
+      "bottom": 0
+    }
+  },
+  "widgetPool": {
+    "panel": {
+      "uri": "themes/FoldableTheme/panels/FoldablePanel/Panel",
+      "positionRelativeTo": "map",
+      "position": {
+        "top": 1,
+        "right": 1,
+        "bottom": 1
+      }
+    },
+    "widgets": [
+      {
+        "label": "Open Location Code",
+        "uri": "widgets/OpenLocationCode/Widget"
+      },
+      {
+        "label": "WorkflowRunner_Modal",
+        "uri": "widgets/WorkflowRunner_Modal/Widget"
+      },
+      {
+        "label": "ClearLayers",
+        "uri": "widgets/ClearLayers/Widget"
+      }
+    ]
+  }
+}

@@ -1,0 +1,49 @@
+<div>
+    <div class="add-workflow-tip">${nls.addWorkflowTip}</div>
+    <div class="content">
+        <div class="single-setting-content" data-dojo-attach-point="singleSettingContent" style="display:block">
+            <div class="add-btn" data-dojo-attach-event="click:_onBtnAddItemClicked">
+                <div class="icon"></div>
+                <div class="tip">${nls.chooseWorkflow}</div>
+            </div>
+            <div class="jimu-btn jimu-popup-action-btn geocortex-designer-btn" title="${nls.designWorkflow}" data-dojo-attach-point="designerButton">
+                <a data-dojo-attach-point="designerLink" href="" target="_blank">
+                    ${nls.designWorkflow}<svg data-name="external-link" viewBox="0 0 24 24"><path class="geocortex-external-link" d="M20,11h2V21a3,3,0,0,1-3,3H3a3,3,0,0,1-3-3V5A3,3,0,0,1,3,2H13V4H3A1,1,0,0,0,2,5V21a1,1,0,0,0,1,1H19a1,1,0,0,0,1-1ZM24,0H14.54l3.74,3.74L8.7,12.68l2.1,2.25,9.66-9L24,9.47Z"/></svg>
+                </a>
+            </div>
+        </div>
+        <div class="workflow-parameters" data-dojo-attach-point="workflowParameters" style="display:none">
+            <table data-dojo-attach-point="generalTable" class="general" cellpadding="0" cellspacing="0">
+                <tbody>
+                    <tr>
+                        <td class="first-td">${nls.querySource}</td>
+                        <td class="second-td">
+                            <table cellpadding="0" cellspacing="0" style="width:100%;border-collapse:collapse;">
+                                <tbody>
+                                    <tr>
+                                        <td style="width:auto;">
+                                            <div data-dojo-attach-point="urlTextBox" data-dojo-type="dijit/form/ValidationTextBox" data-dojo-props='required:true,trim:true,disabled:true' style="width:100%;"></div>
+                                        </td>
+                                        <td style="width:40px;">
+                                            <div class="setting-btn jimu-float-trailing" data-dojo-attach-event="onclick:_onBtnAddItemClicked" title="${nls.setSource}">
+                                                <div class="jimu-icon jimu-icon-setting"></div>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="add-parameter" data-dojo-attach-event="onclick: _addParametersRow">
+                <span class="add-parameter-icon"></span>
+                <span class="add-parameter-label">${nls.add}</span>
+            </div>
+            <div data-dojo-attach-point="parametersTable"
+                 data-dojo-type="jimu/dijit/SimpleTable"
+                 data-dojo-props='fields:[{name:"name",title:"${nls.parameterName}",type:"empty"},{name:"value",title:"${nls.parameterValue}",type:"empty"},{name:"actions",title:"${nls.actions}",type:"actions","class":"actions",actions:["up","down","delete"]}]'>
+            </div>
+        </div>
+    </div>
+</div>
