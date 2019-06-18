@@ -51,7 +51,9 @@
         },
         "version": "2.9",
         "id": "widgets_Scalebar_Widget_2",
-        "name": "Scalebar"
+        "name": "Scalebar",
+        "config": "configs/Scalebar/config_widgets_Scalebar_Widget_2.json",
+        "visible": false
       },
       {
         "uri": "widgets/Search/Widget",
@@ -101,9 +103,7 @@
         "id": "_6",
         "version": "2.9",
         "closeable": true,
-        "uri": "widgets/BasemapGallery/Widget",
-        "name": "BasemapGallery",
-        "config": "configs/BasemapGallery/config__6.json"
+        "uri": ""
       },
       {
         "position": {
@@ -111,12 +111,11 @@
           "top": 45,
           "relativeTo": "map"
         },
-        "placeholderIndex": 1,
+        "placeholderIndex": 2,
         "id": "_7",
         "version": "2.9",
         "closeable": true,
-        "uri": "widgets/Edit/Widget",
-        "name": "Edit"
+        "uri": ""
       },
       {
         "position": {
@@ -124,7 +123,7 @@
           "top": 45,
           "relativeTo": "map"
         },
-        "placeholderIndex": 1,
+        "placeholderIndex": 3,
         "id": "_8"
       },
       {
@@ -133,7 +132,7 @@
           "top": 45,
           "relativeTo": "map"
         },
-        "placeholderIndex": 2,
+        "placeholderIndex": 4,
         "id": "_9"
       },
       {
@@ -146,7 +145,9 @@
         },
         "version": "2.9",
         "id": "widgets_OverviewMap_Widget_10",
-        "name": "OverviewMap"
+        "name": "OverviewMap",
+        "config": "configs/OverviewMap/config_widgets_OverviewMap_Widget_10.json",
+        "visible": false
       },
       {
         "uri": "widgets/HomeButton/Widget",
@@ -168,7 +169,9 @@
         },
         "version": "2.9",
         "id": "widgets_MyLocation_Widget_12",
-        "name": "MyLocation"
+        "name": "MyLocation",
+        "config": "configs/MyLocation/config_widgets_MyLocation_Widget_12.json",
+        "visible": false
       },
       {
         "uri": "widgets/AttributeTable/Widget",
@@ -177,7 +180,9 @@
         },
         "version": "2.9",
         "id": "widgets_AttributeTable_Widget_13",
-        "name": "AttributeTable"
+        "name": "AttributeTable",
+        "config": "configs/AttributeTable/config_widgets_AttributeTable_Widget_13.json",
+        "visible": false
       },
       {
         "uri": "widgets/Splash/Widget",
