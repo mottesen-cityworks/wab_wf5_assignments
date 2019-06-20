@@ -22,7 +22,7 @@
         "searchServiceRequests": "AMS/ServiceRequest/Search",
         "getServiceRequestById": "AMS/ServiceRequest/ById",
         "getServiceRequestsById": "AMS/ServiceRequest/ByIds",
-        "closeServiceRequests": "AMS/ServiceRequest/Close",
+        "cancelServiceRequests": "AMS/ServiceRequest/Cancel",
         "updateServiceRequests": "AMS/ServiceRequest/Update",
         "searchInspections": "AMS/Inspection/Search",
         "getInspectionsByIds": "AMS/Inspections/ByIds",
