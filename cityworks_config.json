@@ -11,41 +11,16 @@
         "authenticateUser": "AMS/Authentication/Authenticate",
         "validateToken": "AMS/Authentication/Validate",
         "getUserInfo": "AMS/Authentication/User",
-        "searchWorkOrders": "AMS/WorkOrder/Search",
-        "searchWorkOrderTemplates": "AMS/WorkOrder/Templates",
-        "searchWorkOrderTemplateById": "AMS/WorkOrder/Template",
-        "addWorkOrderEntities": "AMS/WorkOrder/AddEntities",
-        "createWorkOrderFromServiceRequest": "AMS/WorkOrder/CreateFromServiceRequest",
-        "createWorkOrder": "AMS/WorkOrder/Create",
-        "getWorkOrderById": "AMS/WorkOrder/ById",
-        "getWorkOrdersById": "AMS/WorkOrder/ByIds",
         "searchServiceRequests": "AMS/ServiceRequest/Search",
         "getServiceRequestById": "AMS/ServiceRequest/ById",
         "getServiceRequestsById": "AMS/ServiceRequest/ByIds",
         "cancelServiceRequests": "AMS/ServiceRequest/Cancel",
         "updateServiceRequests": "AMS/ServiceRequest/Update",
-        "searchInspections": "AMS/Inspection/Search",
-        "getInspectionsByIds": "AMS/Inspections/ByIds",
-        "searchEmployees": "AMS/Employee/Search",
-        "getEntityGroups": "AMS/Entity/Groups",
-        "getEntityTypes": "AMS/Entity/Types",
-        "searchEntitiesAsWorkorder": "AMS/Entity/SearchAsWorkOrderEntity",
         "addRequestLaborCosts": "AMS/LaborCost/AddRequestCosts"
     },
     "mapSpatialReference": 3857,
     "cityworksSpatialReference": 102724,
     "serviceRequestLayerId": "Service Requests",
-    "workOrderLayerId": "Work Orders",
     "bufferDistance": 100,
-    "bufferUnits": "meters",
-    "entityLayers": [
-        {
-            "url": "https://cloud-arcgis01.cityworks.com/arcgis/rest/services/KSMMS/_KSMMS_CLOUD_WATER/MapServer/1",
-            "entityGroup": "W",
-            "entityType": "WFIREHYD",
-            "label": "FACILITYID",
-            "uid": "FACILITYID",
-            "layerName": "Water Hydrants"
-        }
-    ]
+    "bufferUnits": "meters"
 }
